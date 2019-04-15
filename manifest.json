@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "RaidViewer",
+  "version": "1.0",
+  "author": "Volvox",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.twitch.tv/*"
+      ],
+      "js": ["jquery-2.1.3.min.js", "content.js"]
+    }
+  ]
+}
