@@ -4,7 +4,7 @@
 
 
 /**
-* This will get the current URl of the page (only on twitch.tv/*) and detect whether the user is coming from a raid or not and then set a timer to redirect the user to the URL without the referrer tag
+* This will get the current URL of the page (only on twitch.tv/*) and detect whether the user is coming from a raid or not and then set a timer to redirect the user to the URL without the referrer tag
 * to get the streamer the extra view.
 **/
 function inject() {
