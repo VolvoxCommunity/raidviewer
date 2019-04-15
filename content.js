@@ -9,7 +9,6 @@
 **/
 function inject() {
   var referrer = getUrlParameter("referrer");
-  debugLog("Referrer: " + referrer);
 
   if (referrer !== undefined) {
     // we have come to this channel from a raid
