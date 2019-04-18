@@ -3,6 +3,9 @@
   "name": "RaidViewer",
   "version": "1.1",
   "author": "Volvox",
+  "background": {
+    "scripts": ["background.js"]
+  },
   "icons": {
     "16": "volvox-16.png",
     "48": "volvox-48.png",
